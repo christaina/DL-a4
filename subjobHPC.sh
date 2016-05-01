@@ -6,14 +6,15 @@
 
 module purge
 
-SRCDIR=$HOME/nameofScriptDir/
-RUNDIR=$SCRATCH/nameofScriptDir/run-${PBS_JOBID/.*}
+SRCDIR=/scratch/ceb545/dl/DL-a4
+RUNDIR=$SCRATCH/DL-a4/run-${PBS_JOBID/.*}
 mkdir -p $RUNDIR
 
 cd $PBS_O_WORKDIR
 #cp -R $SRCDIR/* $RUNDIR
 
-cd $RUNDIR
+#cd $RUNDIR
+cd $SRCDIR
 
 module load torch
-th main_gru.lua
+th 1_main_gru.lua

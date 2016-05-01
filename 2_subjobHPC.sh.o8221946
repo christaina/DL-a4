@@ -1,0 +1,24 @@
+[0mRunning on CPU[0m	
+[0mvocab map saved[0m	
+[0mNetwork parameters:[0m	
+{
+  max_grad_norm : [0;36m5[0m
+  seq_length : [0;36m30[0m
+  batch_size : [0;36m20[0m
+  lr : [0;36m0.1[0m
+  max_max_epoch : [0;36m15[0m
+  rnn_size : [0;36m200[0m
+  init_weight : [0;36m0.1[0m
+  decay : [0;36m2[0m
+  dropout : [0;36m0[0m
+  layers : [0;36m2[0m
+  vocab_size : [0;36m10000[0m
+  max_epoch : [0;36m4[0m
+}
+[0mCreating a RNN LSTM network.[0m	
+[0mStarting training.[0m	
+[0mepoch = 0.006, train perp. = 10147.099, wps = 386, dw:norm() = 30.317, lr = 0.100, since beginning = 0 mins.[0m	
+[0mepoch = 0.107, train perp. = 8019.034, wps = 391, dw:norm() = 23.137, lr = 0.100, since beginning = 4 mins.[0m	
+[0mepoch = 0.207, train perp. = 6233.961, wps = 392, dw:norm() = 19.126, lr = 0.100, since beginning = 8 mins.[0m	
+[0mepoch = 0.307, train perp. = 4800.730, wps = 392, dw:norm() = 19.674, lr = 0.100, since beginning = 12 mins.[0m	
+[0mepoch = 0.407, train perp. = 3670.028, wps = 393, dw:norm() = 16.980, lr = 0.100, since beginning = 16 mins.[0m	

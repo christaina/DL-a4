@@ -6,20 +6,20 @@ require 'nn'
 local stringx = require('pl.stringx')
 local file = require('pl.file')
 
-model = 'model_test_2.net'
-modeldir = '.'
+model = 'model_test_gru4.net'
+modeldir = 'logs_gru_newlr_long'
 datadir = 'data'
 testdata = 'ptb.test.txt'
 vocab_map= 'vocab_map.tb'
 
 vocab_map = torch.load(paths.concat(datadir,vocab_map))
-model = torch.load(paths.concat(modeldir,model))
 
 function reset_state(state)
         layers = 2
     state.pos = 1
     if model ~= nil and model.start_s ~= nil then
-        for d = 1, 2 * layers do
+	-- make 2 x layers for LSTM implementation
+        for d = 1,  layers do
             model.start_s[d]:zero()
         end
     end
@@ -66,8 +66,8 @@ function run_test()
     -- no batching here
     g_replace_table(model.s[0], model.start_s)
     for i = 1, (len - 1) do
-	if i % prog == 0 then
-		print("step" ) end
+--	if i % prog == 0 then
+--		print("step" ) end
         local x = state_test.data[i]
         local y = state_test.data[i + 1]
         perp_tmp, model.s[1],preds = unpack(model.rnns[1]:forward({x, y, model.s[0]}))
@@ -78,7 +78,6 @@ function run_test()
         g_replace_table(model.s[0], model.s[1])
     end
     print("Test set perplexity : " .. g_f3(torch.exp(perp / (len - 1))))
-    g_enable_dropout(model.rnns)
 end
 
 
@@ -96,6 +95,7 @@ end
 
 
 data = load_data(paths.concat(datadir,testdata))
+model = torch.load(paths.concat(modeldir,model))
 bs = 20
 data = data:resize(data:size(1),1):expand(data:size(1),bs)
 --leftovers = data:size(1)%bs
