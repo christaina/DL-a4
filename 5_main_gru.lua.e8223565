@@ -1,0 +1,6 @@
+
+/opt/torque/mom_priv/jobs/8223565.SC: line 4: --: command not found
+/opt/torque/mom_priv/jobs/8223565.SC: line 5: syntax error near unexpected token `('
+/opt/torque/mom_priv/jobs/8223565.SC: line 5: `----  Copyright (c) 2014, Facebook, Inc.'
+
+

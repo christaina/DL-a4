@@ -22,7 +22,7 @@ require('base')
 ptb = require('data')
 -- Trains 1 epoch and gives validation set ~182 perplexity (CPU).
 
-logdir = '1_gru'
+logdir = '6_gru'
 
 trainLogger = optim.Logger(paths.concat(logdir, 'train.log'))
 testLogger = optim.Logger(paths.concat(logdir, 'test.log'))
@@ -31,10 +31,10 @@ valLogger = optim.Logger(paths.concat(logdir, 'val.log'))
 params = {
                 batch_size=20, -- minibatch
                 seq_length=20, -- unroll length
-                layers=2,
+                layers=3,
                 decay=2,
                 rnn_size=200, -- hidden unit size
-                dropout=0.5, 
+                dropout=0.2, 
                 init_weight=0.1, -- random weight initialization limits
                 lr=0.1, --learning rate
                 vocab_size=10000, -- limit on the vocabulary size
