@@ -23,3 +23,161 @@
 [0mepoch = 0.304, train perp. = 4721.116, wps = 452, dw:norm() = 10.833, lr = 0.100, since beginning = 10 mins.[0m	
 [0mepoch = 0.404, train perp. = 3571.143, wps = 452, dw:norm() = 11.495, lr = 0.100, since beginning = 14 mins.[0m	
 [0mepoch = 0.504, train perp. = 2680.454, wps = 452, dw:norm() = 11.265, lr = 0.100, since beginning = 17 mins.[0m	
+[0mepoch = 0.604, train perp. = 1977.202, wps = 452, dw:norm() = 11.085, lr = 0.100, since beginning = 21 mins.[0m	
+[0mepoch = 0.703, train perp. = 1453.717, wps = 452, dw:norm() = 11.046, lr = 0.100, since beginning = 24 mins.[0m	
+[0mepoch = 0.803, train perp. = 1063.468, wps = 453, dw:norm() = 11.722, lr = 0.100, since beginning = 27 mins.[0m	
+[0mepoch = 0.903, train perp. = 771.428, wps = 452, dw:norm() = 11.100, lr = 0.100, since beginning = 31 mins.[0m	
+[0mValidation set perplexity : 340.209[0m	
+[0mmodel saved.[0m	
+[0mepoch = 1.003, train perp. = 558.666, wps = 438, dw:norm() = 11.410, lr = 0.100, since beginning = 35 mins.[0m	
+[0mepoch = 1.103, train perp. = 504.702, wps = 440, dw:norm() = 11.292, lr = 0.100, since beginning = 39 mins.[0m	
+[0mepoch = 1.203, train perp. = 469.128, wps = 441, dw:norm() = 11.546, lr = 0.100, since beginning = 42 mins.[0m	
+[0mepoch = 1.303, train perp. = 439.692, wps = 442, dw:norm() = 11.849, lr = 0.100, since beginning = 46 mins.[0m	
+[0mepoch = 1.402, train perp. = 416.064, wps = 442, dw:norm() = 11.827, lr = 0.100, since beginning = 49 mins.[0m	
+[0mepoch = 1.502, train perp. = 396.910, wps = 443, dw:norm() = 12.271, lr = 0.100, since beginning = 52 mins.[0m	
+[0mepoch = 1.602, train perp. = 380.501, wps = 444, dw:norm() = 13.055, lr = 0.100, since beginning = 56 mins.[0m	
+[0mepoch = 1.702, train perp. = 366.240, wps = 444, dw:norm() = 12.572, lr = 0.100, since beginning = 59 mins.[0m	
+[0mepoch = 1.802, train perp. = 354.299, wps = 445, dw:norm() = 12.598, lr = 0.100, since beginning = 63 mins.[0m	
+[0mepoch = 1.902, train perp. = 343.207, wps = 445, dw:norm() = 12.794, lr = 0.100, since beginning = 66 mins.[0m	
+[0mValidation set perplexity : 263.527[0m	
+[0mmodel saved.[0m	
+[0mepoch = 2.002, train perp. = 333.718, wps = 439, dw:norm() = 12.698, lr = 0.100, since beginning = 70 mins.[0m	
+[0mepoch = 2.102, train perp. = 324.959, wps = 440, dw:norm() = 13.022, lr = 0.100, since beginning = 74 mins.[0m	
+[0mepoch = 2.201, train perp. = 317.388, wps = 440, dw:norm() = 12.469, lr = 0.100, since beginning = 77 mins.[0m	
+[0mepoch = 2.301, train perp. = 310.598, wps = 441, dw:norm() = 13.334, lr = 0.100, since beginning = 81 mins.[0m	
+[0mepoch = 2.401, train perp. = 304.190, wps = 441, dw:norm() = 13.577, lr = 0.100, since beginning = 84 mins.[0m	
+[0mepoch = 2.501, train perp. = 298.299, wps = 441, dw:norm() = 13.463, lr = 0.100, since beginning = 88 mins.[0m	
+[0mepoch = 2.601, train perp. = 292.797, wps = 442, dw:norm() = 13.503, lr = 0.100, since beginning = 91 mins.[0m	
+[0mepoch = 2.701, train perp. = 287.804, wps = 442, dw:norm() = 13.327, lr = 0.100, since beginning = 94 mins.[0m	
+[0mepoch = 2.801, train perp. = 283.066, wps = 443, dw:norm() = 13.583, lr = 0.100, since beginning = 98 mins.[0m	
+[0mepoch = 2.901, train perp. = 278.450, wps = 443, dw:norm() = 13.090, lr = 0.100, since beginning = 101 mins.[0m	
+[0mValidation set perplexity : 226.072[0m	
+[0mmodel saved.[0m	
+[0mepoch = 3.000, train perp. = 274.166, wps = 439, dw:norm() = 13.252, lr = 0.100, since beginning = 106 mins.[0m	
+[0mepoch = 3.100, train perp. = 270.102, wps = 440, dw:norm() = 13.188, lr = 0.100, since beginning = 109 mins.[0m	
+[0mepoch = 3.200, train perp. = 266.258, wps = 440, dw:norm() = 13.322, lr = 0.100, since beginning = 113 mins.[0m	
+[0mepoch = 3.300, train perp. = 262.444, wps = 440, dw:norm() = 13.592, lr = 0.100, since beginning = 116 mins.[0m	
+[0mepoch = 3.400, train perp. = 259.005, wps = 441, dw:norm() = 13.600, lr = 0.100, since beginning = 119 mins.[0m	
+[0mepoch = 3.500, train perp. = 255.778, wps = 441, dw:norm() = 13.728, lr = 0.100, since beginning = 123 mins.[0m	
+[0mepoch = 3.600, train perp. = 252.534, wps = 441, dw:norm() = 13.322, lr = 0.100, since beginning = 126 mins.[0m	
+[0mepoch = 3.700, train perp. = 249.629, wps = 441, dw:norm() = 13.438, lr = 0.100, since beginning = 130 mins.[0m	
+[0mepoch = 3.799, train perp. = 246.799, wps = 441, dw:norm() = 13.828, lr = 0.100, since beginning = 133 mins.[0m	
+[0mepoch = 3.899, train perp. = 243.885, wps = 442, dw:norm() = 13.888, lr = 0.100, since beginning = 137 mins.[0m	
+[0mepoch = 3.999, train perp. = 241.209, wps = 442, dw:norm() = 13.431, lr = 0.100, since beginning = 140 mins.[0m	
+[0mValidation set perplexity : 202.951[0m	
+[0mmodel saved.[0m	
+[0mepoch = 4.099, train perp. = 238.610, wps = 439, dw:norm() = 13.631, lr = 0.100, since beginning = 144 mins.[0m	
+[0mepoch = 4.199, train perp. = 236.455, wps = 440, dw:norm() = 14.139, lr = 0.100, since beginning = 148 mins.[0m	
+[0mepoch = 4.299, train perp. = 234.164, wps = 440, dw:norm() = 13.710, lr = 0.100, since beginning = 151 mins.[0m	
+[0mepoch = 4.399, train perp. = 231.835, wps = 440, dw:norm() = 13.768, lr = 0.100, since beginning = 155 mins.[0m	
+[0mepoch = 4.498, train perp. = 229.601, wps = 440, dw:norm() = 13.930, lr = 0.100, since beginning = 158 mins.[0m	
+[0mepoch = 4.598, train perp. = 227.576, wps = 441, dw:norm() = 14.013, lr = 0.100, since beginning = 161 mins.[0m	
+[0mepoch = 4.698, train perp. = 225.754, wps = 441, dw:norm() = 14.251, lr = 0.100, since beginning = 165 mins.[0m	
+[0mepoch = 4.798, train perp. = 223.853, wps = 441, dw:norm() = 13.879, lr = 0.100, since beginning = 168 mins.[0m	
+[0mepoch = 4.898, train perp. = 221.890, wps = 442, dw:norm() = 14.065, lr = 0.100, since beginning = 172 mins.[0m	
+[0mepoch = 4.998, train perp. = 220.039, wps = 442, dw:norm() = 13.920, lr = 0.100, since beginning = 175 mins.[0m	
+[0mValidation set perplexity : 190.146[0m	
+[0mmodel saved.[0m	
+[0mepoch = 5.098, train perp. = 218.099, wps = 440, dw:norm() = 13.841, lr = 0.050, since beginning = 179 mins.[0m	
+[0mepoch = 5.198, train perp. = 216.288, wps = 441, dw:norm() = 13.440, lr = 0.050, since beginning = 182 mins.[0m	
+[0mepoch = 5.297, train perp. = 214.359, wps = 442, dw:norm() = 13.849, lr = 0.050, since beginning = 186 mins.[0m	
+[0mepoch = 5.397, train perp. = 212.494, wps = 442, dw:norm() = 13.666, lr = 0.050, since beginning = 189 mins.[0m	
+[0mepoch = 5.497, train perp. = 210.663, wps = 443, dw:norm() = 14.024, lr = 0.050, since beginning = 192 mins.[0m	
+[0mepoch = 5.597, train perp. = 208.731, wps = 443, dw:norm() = 13.928, lr = 0.050, since beginning = 195 mins.[0m	
+[0mepoch = 5.697, train perp. = 206.936, wps = 444, dw:norm() = 14.169, lr = 0.050, since beginning = 199 mins.[0m	
+[0mepoch = 5.797, train perp. = 205.300, wps = 444, dw:norm() = 14.529, lr = 0.050, since beginning = 202 mins.[0m	
+[0mepoch = 5.897, train perp. = 203.428, wps = 445, dw:norm() = 14.537, lr = 0.050, since beginning = 205 mins.[0m	
+[0mepoch = 5.997, train perp. = 201.759, wps = 445, dw:norm() = 14.406, lr = 0.050, since beginning = 208 mins.[0m	
+[0mValidation set perplexity : 178.527[0m	
+[0mmodel saved.[0m	
+[0mepoch = 6.096, train perp. = 200.691, wps = 443, dw:norm() = 14.465, lr = 0.025, since beginning = 213 mins.[0m	
+[0mepoch = 6.196, train perp. = 199.827, wps = 444, dw:norm() = 14.328, lr = 0.025, since beginning = 216 mins.[0m	
+[0mepoch = 6.296, train perp. = 198.820, wps = 444, dw:norm() = 14.537, lr = 0.025, since beginning = 219 mins.[0m	
+[0mepoch = 6.396, train perp. = 197.837, wps = 445, dw:norm() = 14.542, lr = 0.025, since beginning = 222 mins.[0m	
+[0mepoch = 6.496, train perp. = 197.004, wps = 445, dw:norm() = 14.457, lr = 0.025, since beginning = 226 mins.[0m	
+[0mepoch = 6.596, train perp. = 196.118, wps = 445, dw:norm() = 14.197, lr = 0.025, since beginning = 229 mins.[0m	
+[0mepoch = 6.696, train perp. = 195.308, wps = 445, dw:norm() = 14.389, lr = 0.025, since beginning = 233 mins.[0m	
+[0mepoch = 6.796, train perp. = 194.514, wps = 446, dw:norm() = 14.718, lr = 0.025, since beginning = 236 mins.[0m	
+[0mepoch = 6.895, train perp. = 193.837, wps = 446, dw:norm() = 14.994, lr = 0.025, since beginning = 239 mins.[0m	
+[0mepoch = 6.995, train perp. = 193.122, wps = 446, dw:norm() = 14.306, lr = 0.025, since beginning = 242 mins.[0m	
+[0mValidation set perplexity : 173.313[0m	
+[0mmodel saved.[0m	
+[0mepoch = 7.095, train perp. = 192.532, wps = 445, dw:norm() = 14.776, lr = 0.013, since beginning = 247 mins.[0m	
+[0mepoch = 7.195, train perp. = 192.127, wps = 445, dw:norm() = 14.266, lr = 0.013, since beginning = 250 mins.[0m	
+[0mepoch = 7.295, train perp. = 191.618, wps = 445, dw:norm() = 14.150, lr = 0.013, since beginning = 253 mins.[0m	
+[0mepoch = 7.395, train perp. = 191.233, wps = 446, dw:norm() = 14.237, lr = 0.013, since beginning = 257 mins.[0m	
+[0mepoch = 7.495, train perp. = 190.748, wps = 446, dw:norm() = 14.714, lr = 0.013, since beginning = 260 mins.[0m	
+[0mepoch = 7.594, train perp. = 190.386, wps = 447, dw:norm() = 15.002, lr = 0.013, since beginning = 263 mins.[0m	
+[0mepoch = 7.694, train perp. = 190.033, wps = 447, dw:norm() = 14.662, lr = 0.013, since beginning = 266 mins.[0m	
+[0mepoch = 7.794, train perp. = 189.579, wps = 448, dw:norm() = 14.594, lr = 0.013, since beginning = 269 mins.[0m	
+[0mepoch = 7.894, train perp. = 189.168, wps = 447, dw:norm() = 14.832, lr = 0.013, since beginning = 273 mins.[0m	
+[0mepoch = 7.994, train perp. = 188.785, wps = 448, dw:norm() = 15.182, lr = 0.013, since beginning = 276 mins.[0m	
+[0mValidation set perplexity : 171.169[0m	
+[0mmodel saved.[0m	
+[0mepoch = 8.094, train perp. = 188.600, wps = 446, dw:norm() = 14.739, lr = 0.006, since beginning = 280 mins.[0m	
+[0mepoch = 8.194, train perp. = 188.254, wps = 447, dw:norm() = 14.798, lr = 0.006, since beginning = 284 mins.[0m	
+[0mepoch = 8.294, train perp. = 188.025, wps = 447, dw:norm() = 14.565, lr = 0.006, since beginning = 287 mins.[0m	
+[0mepoch = 8.393, train perp. = 187.817, wps = 448, dw:norm() = 14.392, lr = 0.006, since beginning = 290 mins.[0m	
+[0mepoch = 8.493, train perp. = 187.622, wps = 448, dw:norm() = 15.201, lr = 0.006, since beginning = 293 mins.[0m	
+[0mepoch = 8.593, train perp. = 187.346, wps = 448, dw:norm() = 14.554, lr = 0.006, since beginning = 297 mins.[0m	
+[0mepoch = 8.693, train perp. = 187.141, wps = 448, dw:norm() = 13.924, lr = 0.006, since beginning = 300 mins.[0m	
+[0mepoch = 8.793, train perp. = 187.044, wps = 448, dw:norm() = 14.647, lr = 0.006, since beginning = 304 mins.[0m	
+[0mepoch = 8.893, train perp. = 186.830, wps = 448, dw:norm() = 14.840, lr = 0.006, since beginning = 307 mins.[0m	
+[0mepoch = 8.993, train perp. = 186.621, wps = 448, dw:norm() = 14.641, lr = 0.006, since beginning = 311 mins.[0m	
+[0mValidation set perplexity : 169.662[0m	
+[0mmodel saved.[0m	
+[0mepoch = 9.093, train perp. = 186.476, wps = 446, dw:norm() = 14.976, lr = 0.003, since beginning = 315 mins.[0m	
+[0mepoch = 9.192, train perp. = 186.359, wps = 446, dw:norm() = 15.021, lr = 0.003, since beginning = 319 mins.[0m	
+[0mepoch = 9.292, train perp. = 186.235, wps = 446, dw:norm() = 15.144, lr = 0.003, since beginning = 322 mins.[0m	
+[0mepoch = 9.392, train perp. = 186.041, wps = 446, dw:norm() = 13.942, lr = 0.003, since beginning = 326 mins.[0m	
+[0mepoch = 9.492, train perp. = 185.989, wps = 446, dw:norm() = 14.903, lr = 0.003, since beginning = 329 mins.[0m	
+[0mepoch = 9.592, train perp. = 185.867, wps = 446, dw:norm() = 14.440, lr = 0.003, since beginning = 333 mins.[0m	
+[0mepoch = 9.692, train perp. = 185.727, wps = 446, dw:norm() = 14.208, lr = 0.003, since beginning = 336 mins.[0m	
+[0mepoch = 9.792, train perp. = 185.591, wps = 446, dw:norm() = 14.321, lr = 0.003, since beginning = 339 mins.[0m	
+[0mepoch = 9.892, train perp. = 185.445, wps = 446, dw:norm() = 15.186, lr = 0.003, since beginning = 343 mins.[0m	
+[0mepoch = 9.991, train perp. = 185.365, wps = 446, dw:norm() = 14.683, lr = 0.003, since beginning = 346 mins.[0m	
+[0mValidation set perplexity : 169.174[0m	
+[0mmodel saved.[0m	
+[0mepoch = 10.091, train perp. = 185.301, wps = 445, dw:norm() = 14.995, lr = 0.002, since beginning = 351 mins.[0m	
+[0mepoch = 10.191, train perp. = 185.289, wps = 445, dw:norm() = 14.475, lr = 0.002, since beginning = 354 mins.[0m	
+[0mepoch = 10.291, train perp. = 185.291, wps = 445, dw:norm() = 14.808, lr = 0.002, since beginning = 358 mins.[0m	
+[0mepoch = 10.391, train perp. = 185.330, wps = 445, dw:norm() = 14.901, lr = 0.002, since beginning = 361 mins.[0m	
+[0mepoch = 10.491, train perp. = 185.209, wps = 445, dw:norm() = 15.085, lr = 0.002, since beginning = 365 mins.[0m	
+[0mepoch = 10.591, train perp. = 185.171, wps = 445, dw:norm() = 15.018, lr = 0.002, since beginning = 368 mins.[0m	
+[0mepoch = 10.690, train perp. = 185.053, wps = 445, dw:norm() = 14.819, lr = 0.002, since beginning = 372 mins.[0m	
+[0mepoch = 10.790, train perp. = 184.939, wps = 445, dw:norm() = 14.750, lr = 0.002, since beginning = 375 mins.[0m	
+[0mepoch = 10.890, train perp. = 184.834, wps = 445, dw:norm() = 14.558, lr = 0.002, since beginning = 379 mins.[0m	
+[0mepoch = 10.990, train perp. = 184.793, wps = 445, dw:norm() = 14.770, lr = 0.002, since beginning = 382 mins.[0m	
+[0mValidation set perplexity : 168.799[0m	
+[0mmodel saved.[0m	
+[0mepoch = 11.090, train perp. = 184.742, wps = 444, dw:norm() = 15.043, lr = 0.001, since beginning = 387 mins.[0m	
+[0mepoch = 11.190, train perp. = 184.813, wps = 444, dw:norm() = 14.576, lr = 0.001, since beginning = 390 mins.[0m	
+[0mepoch = 11.290, train perp. = 184.691, wps = 444, dw:norm() = 14.566, lr = 0.001, since beginning = 393 mins.[0m	
+[0mepoch = 11.390, train perp. = 184.662, wps = 444, dw:norm() = 14.850, lr = 0.001, since beginning = 397 mins.[0m	
+[0mepoch = 11.489, train perp. = 184.613, wps = 444, dw:norm() = 14.885, lr = 0.001, since beginning = 400 mins.[0m	
+[0mepoch = 11.589, train perp. = 184.633, wps = 444, dw:norm() = 15.420, lr = 0.001, since beginning = 404 mins.[0m	
+[0mepoch = 11.689, train perp. = 184.639, wps = 444, dw:norm() = 14.328, lr = 0.001, since beginning = 407 mins.[0m	
+[0mepoch = 11.789, train perp. = 184.647, wps = 444, dw:norm() = 15.102, lr = 0.001, since beginning = 411 mins.[0m	
+[0mepoch = 11.889, train perp. = 184.641, wps = 444, dw:norm() = 14.470, lr = 0.001, since beginning = 414 mins.[0m	
+[0mepoch = 11.989, train perp. = 184.596, wps = 444, dw:norm() = 14.734, lr = 0.001, since beginning = 418 mins.[0m	
+[0mValidation set perplexity : 168.728[0m	
+[0mmodel saved.[0m	
+[0mepoch = 12.089, train perp. = 184.561, wps = 443, dw:norm() = 15.395, lr = 0.000, since beginning = 422 mins.[0m	
+[0mepoch = 12.189, train perp. = 184.489, wps = 443, dw:norm() = 14.562, lr = 0.000, since beginning = 426 mins.[0m	
+[0mepoch = 12.288, train perp. = 184.556, wps = 443, dw:norm() = 15.072, lr = 0.000, since beginning = 429 mins.[0m	
+[0mepoch = 12.388, train perp. = 184.535, wps = 443, dw:norm() = 14.589, lr = 0.000, since beginning = 432 mins.[0m	
+[0mepoch = 12.488, train perp. = 184.596, wps = 443, dw:norm() = 14.853, lr = 0.000, since beginning = 436 mins.[0m	
+[0mepoch = 12.588, train perp. = 184.521, wps = 443, dw:norm() = 14.719, lr = 0.000, since beginning = 439 mins.[0m	
+[0mepoch = 12.688, train perp. = 184.566, wps = 443, dw:norm() = 14.413, lr = 0.000, since beginning = 443 mins.[0m	
+[0mepoch = 12.788, train perp. = 184.548, wps = 443, dw:norm() = 14.627, lr = 0.000, since beginning = 446 mins.[0m	
+[0mepoch = 12.888, train perp. = 184.538, wps = 443, dw:norm() = 15.208, lr = 0.000, since beginning = 450 mins.[0m	
+[0mepoch = 12.988, train perp. = 184.503, wps = 443, dw:norm() = 15.152, lr = 0.000, since beginning = 453 mins.[0m	
+[0mValidation set perplexity : 168.675[0m	
+[0mmodel saved.[0m	
+[0mepoch = 13.087, train perp. = 184.522, wps = 442, dw:norm() = 14.917, lr = 0.000, since beginning = 458 mins.[0m	
+[0mepoch = 13.187, train perp. = 184.583, wps = 442, dw:norm() = 15.098, lr = 0.000, since beginning = 461 mins.[0m	
+[0mepoch = 13.287, train perp. = 184.583, wps = 442, dw:norm() = 14.929, lr = 0.000, since beginning = 465 mins.[0m	
+[0mepoch = 13.387, train perp. = 184.514, wps = 442, dw:norm() = 14.298, lr = 0.000, since beginning = 468 mins.[0m	
+[0mepoch = 13.487, train perp. = 184.488, wps = 442, dw:norm() = 15.564, lr = 0.000, since beginning = 472 mins.[0m	
+[0mepoch = 13.587, train perp. = 184.460, wps = 442, dw:norm() = 14.887, lr = 0.000, since beginning = 475 mins.[0m	
+[0mepoch = 13.687, train perp. = 184.443, wps = 443, dw:norm() = 14.478, lr = 0.000, since beginning = 478 mins.[0m	

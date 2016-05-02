@@ -1,0 +1,12 @@
+max_grad_norm: 5
+seq_length: 30
+batch_size: 20
+lr: 0.1
+max_max_epoch: 12
+rnn_size: 250
+init_weight: 0.1
+decay: 4
+dropout: 0.5
+layers: 2
+vocab_size: 10000
+max_epoch: 4
