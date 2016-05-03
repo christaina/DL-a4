@@ -20,9 +20,9 @@ end
 
 function reset_state(state)
 	layers = 2
-    state.pos = 1
+    --state.pos = 1
     if model ~= nil and model.start_s ~= nil then
-        for d = 1, 2 * layers do
+        for d = 1,  layers do
             model.start_s[d]:zero()
         end
     end
@@ -33,7 +33,8 @@ function map_line(line)
 	for i =2,#line do
 	mapped_line[i-1]=vocab_map[line[i]]
 	end
-	return torch.DoubleTensor(mapped_line)
+	--return torch.DoubleTensor(mapped_line)
+	return mapped_line
 end
 
 function print_line(line)
@@ -42,23 +43,21 @@ for i=1,line:size(1) do
 end
 
 function run_test(line)
-    reset_state(line)
+--next_word = ""
     g_disable_dropout(model.rnns)
     local perp = 0
-    local len = line.data:size(1)
+    local len = #line
     -- no batching here
     g_replace_table(model.s[0], model.start_s)
-    for i = 1, (len - 1) do
-        local x = torch.DoubleTensor(20):fill((line.data[i]))
-        local y = torch.DoubleTensor(20):fill((line.data[i + 1]))
+        local x = line
+        local y = line
         perp_tmp, model.s[1],preds = unpack(model.rnns[1]:forward({x, y, model.s[0]}))
 	-- to avoid the unking issue
 	xfer = nn.SoftMax()
 	new_preds = xfer:forward(preds)
-        ind = torch.multinomial(new_preds,1)
-        perp = perp + perp_tmp[1]
+        local ind = torch.multinomial(new_preds,1)
+        perp = perp + perp_tmp[1] 
         g_replace_table(model.s[0], model.s[1])
-    end
 	-- get first prediction
 	return ind[{1,1}]	
 end
@@ -81,17 +80,24 @@ while true do
     end
   else
 	mapped = map_line(line)
+model_file = 'model.net'
+model_dir = '4_gru'
+model = torch.load(paths.concat(model_dir,model_file))
 line_ds = {}
 line_ds.data = mapped
-    for i = 1, line[1] do 
-model_file = 'model_test_2.net'
-model_dir = '.'
-model = torch.load(paths.concat(model_dir,model_file))
-next_preds = run_test(line_ds)
-pred_word = inv_vocab_map[next_preds]
-line_ds.data = line_ds.data:cat(torch.DoubleTensor({next_preds}))
+reset_state()
+for i = 1, #mapped do
+io.write(inv_vocab_map[mapped[i]]," ")
+curr = torch.DoubleTensor(20):fill(mapped[i])
+pred = run_test(curr)
+next_out = inv_vocab_map[pred]
 end
-print_line(line_ds.data)
+    for i = 1, line[1] do 
+curr = (torch.DoubleTensor(20):fill(pred))
+pred = run_test(curr)
+next_out= inv_vocab_map[pred]
+io.write(next_out," ")
+end
     io.write('\n')
   end
 end

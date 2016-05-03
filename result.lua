@@ -6,12 +6,12 @@ require 'nn'
 local stringx = require('pl.stringx')
 local file = require('pl.file')
 
-model = 'model_test_gru4.net'
-modeldir = 'logs_gru_newlr_long'
+model = 'model.net'
+modeldir = '9_gru'
 datadir = 'data'
 testdata = 'ptb.test.txt'
-vocab_map= 'vocab_map.tb'
 
+vocab_map= 'vocab_map.tb'
 vocab_map = torch.load(paths.concat(datadir,vocab_map))
 
 function reset_state(state)
@@ -71,9 +71,6 @@ function run_test()
         local x = state_test.data[i]
         local y = state_test.data[i + 1]
         perp_tmp, model.s[1],preds = unpack(model.rnns[1]:forward({x, y, model.s[0]}))
---print("predictions look like...")
---print(ind)
---print_preds(ind)
         perp = perp + perp_tmp[1]
         g_replace_table(model.s[0], model.s[1])
     end
@@ -85,7 +82,6 @@ local function load_data(fname)
     local data = file.read(fname)
     data = stringx.replace(data, '\n', '<eos>')
     data = stringx.split(data)
-    --print(string.format("Loading %s, size of data = %d", fname, #data))
     local x = torch.zeros(#data)
     for i = 1, #data do
         x[i] = vocab_map[data[i]]
@@ -98,11 +94,7 @@ data = load_data(paths.concat(datadir,testdata))
 model = torch.load(paths.concat(modeldir,model))
 bs = 20
 data = data:resize(data:size(1),1):expand(data:size(1),bs)
---leftovers = data:size(1)%bs
-
 -- make data size multiple of 20
---ext = torch.DoubleTensor(bs-leftovers):fill(0)
---data = data:cat(ext)
 state_test = {}
 state_test.data = data
 run_test()

@@ -22,7 +22,7 @@ require('base')
 ptb = require('data')
 -- Trains 1 epoch and gives validation set ~182 perplexity (CPU).
 
-logdir = '7_gru'
+logdir = '11_gru'
 
 trainLogger = optim.Logger(paths.concat(logdir, 'train.log'))
 testLogger = optim.Logger(paths.concat(logdir, 'test.log'))
@@ -32,7 +32,7 @@ params = {
                 batch_size=20, -- minibatch
                 seq_length=20, -- unroll length
                 layers=2,
-                decay=2,
+                decay=1.2,
                 rnn_size=200, -- hidden unit size
                 dropout=0.5, 
                 init_weight=0.1, -- random weight initialization limits

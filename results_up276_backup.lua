@@ -21,7 +21,7 @@ testLogger = optim.Logger(paths.concat(logdir, timestamp..'_finaltest.log'))
 testLogger:add{"final_test  :  "..datestamp}
 
 
-model = torch.load("saved_models/model_31Apr01_with_GRU.net")
+model = torch.load("4_gru/model.net")
 
 local params = {
                 batch_size=20, -- minibatch
