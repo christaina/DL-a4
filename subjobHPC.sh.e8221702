@@ -1,9 +1,0 @@
-
-tput: No value for $TERM and no -T specified
-/share/apps/torch/20151009/intel/bin/luajit: cannot open main_gru.lua: No such file or directory
-stack traceback:
-	[C]: in function 'dofile'
-	...rch/20151009/intel/lib/luarocks/rocks/trepl/scm-1/bin/th:131: in main chunk
-	[C]: at 0x00405430
-
-
